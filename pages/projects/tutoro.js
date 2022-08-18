@@ -254,8 +254,8 @@ const Work = () => (
                 scalability, tests and performances.
               </ListItem>
               <ListItem mb="2">
-                <strong>"Smaller is better"</strong>, when developing side
-                projects It&apos;s better to develop an intuitive and good
+                <strong>&quot;Smaller is better&quot;</strong>, when developing
+                side projects It&apos;s better to develop an intuitive and good
                 looking prototype rather than a big project. In fact, smaller
                 apps have more potential to impress who look at them because
                 they are <strong>easier to use</strong>. This is something which
@@ -265,9 +265,11 @@ const Work = () => (
                 started.
               </ListItem>
               <ListItem mb="2">
-                <strong>"If you want to go far, go together"</strong>, generally
-                speaking{' '}
-                <strong>side projects don't become online businesses</strong>{' '}
+                <strong>&quot;If you want to go far, go together&quot;</strong>,
+                generally speaking{' '}
+                <strong>
+                  side projects don&apos;t become online businesses
+                </strong>{' '}
                 because even if they have potential, it&apos;s very difficult to
                 turn them into online businesses by being (only) a developer. In
                 fact, the skill set required to build a successful online
@@ -351,7 +353,7 @@ const Work = () => (
                 </Link>{' '}
                 <strong>
                   (NextJS best hosting provider) uses serverless functions to
-                  host API routes and they don't allow file storage
+                  host API routes and they don&apos;t allow file storage
                 </strong>
                 . So, I had to use a service called{' '}
                 <Link href="https://cloudinary.com/" target="_blank">
@@ -375,7 +377,7 @@ const Work = () => (
                   href="https://vercel.com/support/articles/do-vercel-serverless-functions-support-websocket-connections"
                   target="_blank"
                 >
-                  Vercel doesn't support web sockets
+                  Vercel doesn&apos;t support web sockets
                 </Link>{' '}
                 so I had to find a real time communications provider, which fit
                 Vercel restrictions, I used{' '}
