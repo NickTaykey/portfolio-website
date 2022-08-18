@@ -1,4 +1,4 @@
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { ExternalLinkIcon } from '@chakra-ui/icons';
 import {
   Container,
   Badge,
@@ -14,10 +14,10 @@ import {
   AccordionPanel,
   UnorderedList,
   Text,
-  Alert
-} from '@chakra-ui/react'
-import { Title } from '../../components/work'
-import Layout from '../../components/layouts/article'
+  Alert,
+} from '@chakra-ui/react';
+import { Title } from '../../components/work';
+import Layout from '../../components/layouts/article';
 
 const Work = () => (
   <Layout title="Python">
@@ -91,7 +91,7 @@ const Work = () => (
           </h2>
           <AccordionPanel pb={4}>
             <Text>
-              This script it's about web scraping and uses{' '}
+              This script it&apos;s about web scraping and uses{' '}
               <Link href="https://www.passportindex.org/" target="_blank">
                 this website
               </Link>{' '}
@@ -164,7 +164,7 @@ const Work = () => (
               years?
             </Text>
             <Text mb="4">
-              Well, there is and it's very simple, you just{' '}
+              Well, there is and it&apos;s very simple, you just{' '}
               <strong>buy the latest</strong> iPhone every year (in the same
               price range) and you{' '}
               <strong>sell the one you already have</strong> on{' '}
@@ -254,7 +254,7 @@ const Work = () => (
       </Accordion>
     </Container>
   </Layout>
-)
+);
 
-export default Work
-export { getServerSideProps } from '../../components/chakra'
+export default Work;
+export { getServerSideProps } from '../../components/chakra';

@@ -11,11 +11,11 @@ import {
   AccordionButton,
   AccordionIcon,
   AccordionPanel,
-  UnorderedList
-} from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
-import Layout from '../../components/layouts/article'
+  UnorderedList,
+} from '@chakra-ui/react';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
+import { Title, Meta } from '../../components/work';
+import Layout from '../../components/layouts/article';
 
 const Work = () => (
   <Layout title="Tutoro">
@@ -78,7 +78,7 @@ const Work = () => (
           <AccordionPanel pb={4}>
             <video width="100%" preload="metadata" type="video/mp4" controls>
               <source src="https://res.cloudinary.com/dmxuerbxv/video/upload/v1660628225/portfolio/video_nsxfhq.mp4" />
-              Sorry, your browser doesn't support embedded videos.
+              Sorry, your browser doesn&apos;t support embedded videos.
             </video>
           </AccordionPanel>
         </AccordionItem>
@@ -127,8 +127,8 @@ const Work = () => (
           <AccordionPanel pb={4}>
             I wanted to build a fairly complex web project which could test my
             development skills by pushing me outside of that comfort zone which
-            you feel when you learn through online courses. I knew I wasn't
-            going to build something "production-ready", but a{' '}
+            you feel when you learn through online courses. I knew I wasn&apos;t
+            going to build something &quot;production-ready&quot;, but a{' '}
             <strong>working prototype of an idea</strong> also known as{' '}
             <Link
               href="https://en.wikipedia.org/wiki/Minimum_viable_product"
@@ -163,8 +163,8 @@ const Work = () => (
             high school, I always struggled in scientific subjects (especially
             maths and physics) so I really felt the need of having a tutor who
             could explain these subjects to me in a simpler way. I do believe
-            that if I had had a service like Tutoro (which I haven't found yet)
-            my life would have been much easier at school. In conclusion{' '}
+            that if I had had a service like Tutoro (which I haven&apos;t found
+            yet) my life would have been much easier at school. In conclusion{' '}
             <strong>I tried to solve a problem of mine</strong> (which probably
             affects many other people as well) by creating a solution{' '}
             <strong>leveraging my software development skills.</strong>
@@ -195,7 +195,7 @@ const Work = () => (
               <ListItem mb="2">
                 I expanded my knowledge about <strong>Git and Github</strong>{' '}
                 (especially about those <strong>weird commands</strong> like
-                rebase, cherrypick and stash) which isn't explained in most
+                rebase, cherrypick and stash) which isn&apos;t explained in most
                 online courses. Moreover, I learned how to organize my Git
                 workflow using feature branches.{' '}
                 <strong>I still have a lot to learn</strong> about version
@@ -255,12 +255,12 @@ const Work = () => (
               </ListItem>
               <ListItem mb="2">
                 <strong>"Smaller is better"</strong>, when developing side
-                projects It's better to develop an intuitive and good looking
-                prototype rather than a big project. In fact, smaller apps have
-                more potential to impress who look at them because they are{' '}
-                <strong>easier to use</strong>. This is something which I didn't
-                know while developing Tutoro. In fact, I quit the project
-                because the codebase was growing too much, becoming too
+                projects It&apos;s better to develop an intuitive and good
+                looking prototype rather than a big project. In fact, smaller
+                apps have more potential to impress who look at them because
+                they are <strong>easier to use</strong>. This is something which
+                I didn&apos;t know while developing Tutoro. In fact, I quit the
+                project because the codebase was growing too much, becoming too
                 difficult to maintain. So I wish I knew this fact, when I got
                 started.
               </ListItem>
@@ -268,8 +268,8 @@ const Work = () => (
                 <strong>"If you want to go far, go together"</strong>, generally
                 speaking{' '}
                 <strong>side projects don't become online businesses</strong>{' '}
-                because even if they have potential, it's very difficult to turn
-                them into online businesses by being (only) a developer. In
+                because even if they have potential, it&apos;s very difficult to
+                turn them into online businesses by being (only) a developer. In
                 fact, the skill set required to build a successful online
                 company goes beyond software development. I realized this only
                 by developing Tutoro and becoming aware of the non-technical
@@ -321,10 +321,10 @@ const Work = () => (
                 </strong>
                 . This property makes the UI update according to the status of
                 each Session instance (this can be approved, not approved or
-                rejected). This step didn't involve particularly complex MongoDB
-                concepts, but I found it challenging because I had to design the
-                model from scratch.{' '}
-                <strong>I didn't find any online resource</strong> which
+                rejected). This step didn&apos;t involve particularly complex
+                MongoDB concepts, but I found it challenging because I had to
+                design the model from scratch.{' '}
+                <strong>I didn&apos;t find any online resource</strong> which
                 explained the proper way to design this sort of model.
               </ListItem>
               <ListItem mb="2">
@@ -334,7 +334,7 @@ const Work = () => (
                 </Link>{' '}
                 a library which makes authentication easier to handle in NextJS.
                 I chose to use <strong>Google OAuth</strong> as the only
-                authentication strategy because I didn't want to handle
+                authentication strategy because I didn&apos;t want to handle
                 passwords and I wanted to make the authentication process as
                 smooth as possible.
               </ListItem>
@@ -441,7 +441,7 @@ const Work = () => (
       </Accordion>
     </Container>
   </Layout>
-)
+);
 
-export default Work
-export { getServerSideProps } from '../../components/chakra'
+export default Work;
+export { getServerSideProps } from '../../components/chakra';

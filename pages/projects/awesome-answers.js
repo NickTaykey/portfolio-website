@@ -6,11 +6,11 @@ import {
   Text,
   Heading,
   List,
-  ListItem
-} from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
-import Layout from '../../components/layouts/article'
+  ListItem,
+} from '@chakra-ui/react';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
+import { Title, Meta } from '../../components/work';
+import Layout from '../../components/layouts/article';
 
 const Work = () => (
   <Layout title="Tutoro">
@@ -70,7 +70,7 @@ const Work = () => (
             in programming 20% of the effort produces 80% of the outcome
           </strong>
           . When you are developing a side project bearing in mind this concept
-          it's crucial. You want to develop something whose code is not the
+          it&apos;s crucial. You want to develop something whose code is not the
           best, but which puts into practice an Idea.
         </Text>
         <Text mb="2">
@@ -98,7 +98,7 @@ const Work = () => (
       </Box>
     </Container>
   </Layout>
-)
+);
 
-export default Work
-export { getServerSideProps } from '../../components/chakra'
+export default Work;
+export { getServerSideProps } from '../../components/chakra';
