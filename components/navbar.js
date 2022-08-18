@@ -94,14 +94,17 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
-                </NextLink>
                 <NextLink href="/projects" passHref>
-                  <MenuItem as={Link}>Projects</MenuItem>
+                  <MenuItem as={Link}>Personal projects</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                <NextLink
+                  href="https://res.cloudinary.com/dmxuerbxv/image/upload/v1660811399/portfolio/Niccolo%CC%80-Toccane-CV_qgyxth.pdf"
+                  passHref
+                >
+                  <MenuItem as={Link}>CV</MenuItem>
+                </NextLink>
+                <NextLink href="/contacts" passHref>
+                  <MenuItem as={Link}>Contact me</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
