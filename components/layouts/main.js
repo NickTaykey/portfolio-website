@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import NavBar from '../navbar'
-import { Box, Container } from '@chakra-ui/react'
-import Footer from '../footer'
+import Head from 'next/head';
+import NavBar from '../navbar';
+import { Box, Container } from '@chakra-ui/react';
+import Footer from '../footer';
 
 const Main = ({ children, router }) => {
   return (
@@ -10,13 +10,11 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Niccolò's homepage" />
         <meta name="author" content="Niccolò Toccane" />
-        <meta name="author" content="craftzdog" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Niccolò Toccane" />
         <meta name="og:title" content="Niccolò Toccane" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
         <title>Niccolò Toccane - Homepage</title>
       </Head>
 
@@ -28,7 +26,7 @@ const Main = ({ children, router }) => {
         <Footer />
       </Container>
     </Box>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
