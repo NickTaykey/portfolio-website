@@ -31,7 +31,11 @@ const Posts = () => {
                 Telegram
               </Button>
             </NextLink>
-            <NextLink passHref scroll={false} href="">
+            <NextLink
+              passHref
+              scroll={false}
+              href="https://www.linkedin.com/in/niccol%C3%B2-toccane/"
+            >
               <Button
                 leftIcon={<FaLinkedin size="25" />}
                 colorScheme="linkedin"
