@@ -84,7 +84,7 @@ const Home = () => (
             My journey so far
           </Heading>
           <BioSection>
-            <BioYear>Year 0</BioYear>
+            <BioYear>Year 1</BioYear>
             Discovered my passion for Web development, learned to build basic
             fullstack websites at{' '}
             <Link
@@ -92,16 +92,6 @@ const Home = () => (
               target="_blank"
             >
               The Web Developer Bootcamp
-            </Link>
-          </BioSection>
-          <BioSection>
-            <BioYear>Year 1</BioYear>
-            Built my first fullstack website{' '}
-            <Link
-              href="https://awesome-answ.herokuapp.com/questions"
-              target="_blank"
-            >
-              (It might be a bit slow at loading)
             </Link>
           </BioSection>
           <BioSection>

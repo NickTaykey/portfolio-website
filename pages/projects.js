@@ -13,7 +13,6 @@ import Section from '../components/section';
 import thumbPortfolio from '../public/images/projects/portfolio.png';
 import thumbTutoro from '../public/images/projects/tutoro.png';
 import thumbPython from '../public/images/projects/python.png';
-import thumbAwesomeAnswers from '../public/images/projects/awesome-answers.png';
 
 const Projects = () => (
   <Layout title="Projects">
@@ -55,16 +54,6 @@ const Projects = () => (
           >
             Wrote multiple scripts for automating boring tasks, ie: passwords
             management and web data fetching (using web scraping).
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
-            id="awesome-answers"
-            title="My first fullstack website"
-            thumbnail={thumbAwesomeAnswers}
-          >
-            Developed a Q&A website using NodeJS, ExpressJS, MongoDB and
-            Bootstrap4
           </WorkGridItem>
         </Section>
       </SimpleGrid>
