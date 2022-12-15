@@ -188,13 +188,6 @@ const Work = () => (
               >
                 Check out the code on Github <ExternalLinkIcon mx="2px" />
               </Link>
-              <Link
-                display="block"
-                href="https://replit.com/@toccaneni/swappie-smart-scraper"
-                target="_blank"
-              >
-                Check out the script in action <ExternalLinkIcon mx="2px" />
-              </Link>
             </Box>
             <Text mb="4">
               To create this script I retrieved second hand iPhone prices from
@@ -208,18 +201,6 @@ const Work = () => (
               command line interface, in which code modularity and
               maintainability was not the main goal.
             </Text>
-            <Alert status="warning">
-              <AlertIcon />{' '}
-              <Text>
-                It is impossible to predict for how long this script will be
-                working because it makes use of web scraping to retrieve data
-                and this technique will work as long as the website from which
-                the script fetches data will allow it. To detect when this will
-                happen, I wrote <strong>Unit tests</strong> for the code which
-                will fail, but <strong>I will not maintain this project</strong>
-                , it was only a fun experiment!
-              </Text>
-            </Alert>
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
