@@ -36,7 +36,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
   );
 };
 
-const Navbar = props => {
+const Navbar = (props) => {
   const { path } = props;
 
   return (
@@ -74,7 +74,7 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             Personal projects
           </LinkItem>
-          <LinkItem href="https://res.cloudinary.com/dmxuerbxv/image/upload/v1660811399/portfolio/Niccolo%CC%80-Toccane-CV_qgyxth.pdf">
+          <LinkItem href="https://res.cloudinary.com/dmxuerbxv/image/upload/v1671542417/portfolio/Niccolo%CC%80-Toccane-CV_ufsqft.pdf">
             CV
           </LinkItem>
           <LinkItem href="/contacts" path={path}>
