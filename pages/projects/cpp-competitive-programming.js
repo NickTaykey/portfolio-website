@@ -172,7 +172,8 @@ const Work = () => {
                   find an <strong>unexpected values</strong> for the expression
                   to be correctly resolved, it sets the is valid parameter to
                   false. Otherwise, if the expression is correctly formated it
-                  returns its computer value <strong>'T' or 'F'</strong>.
+                  returns its computer value{' '}
+                  <strong>&apos;T&apos; or &apos;F&apos;</strong>.
                 </Text>
                 <Text my="4">
                   Examples:
@@ -416,7 +417,7 @@ const Work = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Text mb="4">Giuseppe Flavio's problem:</Text>
+                <Text mb="4">Giuseppe Flavio&apos;s problem:</Text>
                 <UnorderedList>
                   <ListItem>
                     Imagine that{' '}
@@ -459,7 +460,7 @@ const Work = () => {
                     circular.
                   </ListItem>
                   <ListItem>
-                    Let's start again from node M-1 by applying the same
+                    Let&apos;s start again from node M-1 by applying the same
                     principle.
                   </ListItem>
                   <ListItem>
@@ -626,12 +627,13 @@ const Work = () => {
               <AccordionPanel pb={4}>
                 <Text mb="4">
                   The following program receives strings composed only by{' '}
-                  <strong>"I" and "D"</strong>. These encode numbers in which
-                  "I" mean that the next digit is <strong>greater</strong> than
-                  the former. "D" means that the next digit is{' '}
-                  <strong>lower</strong> than the former. The decode function
-                  convert a string in this format to an integer. Example:
-                  <strong>"IIDDIDID" : 125437698</strong>.
+                  <strong>&quot;I&quot; and &quot;D&quot;</strong>. These encode
+                  numbers in which &quot;I&quot; mean that the next digit is{' '}
+                  <strong>greater</strong> than the former. &quot;D&quot; means
+                  that the next digit is <strong>lower</strong> than the former.
+                  The decode function convert a string in this format to an
+                  integer. Example:
+                  <strong>&quot;IIDDIDID&quot; : 125437698</strong>.
                 </Text>
                 <Tabs>
                   <TabList>
@@ -690,7 +692,7 @@ const Work = () => {
                 </Text>
                 <UnorderedList my="4">
                   <ListItem>
-                    It's allowed to move only{' '}
+                    It&apos;s allowed to move only{' '}
                     <strong>one stake at the time</strong>.
                   </ListItem>
                   <ListItem>
@@ -745,9 +747,9 @@ const Work = () => {
                   Otherwise, open parenthesis is read and an intermediate node
                   is created.{' '}
                   <strong>An expression is evaluated recursively</strong> as
-                  follows: if it's a leaf, its value is returned otherwise, the
-                  two subtrees are recursively evaluated, and the node operator
-                  is applied.
+                  follows: if it&apos;s a leaf, its value is returned otherwise,
+                  the two subtrees are recursively evaluated, and the node
+                  operator is applied.
                 </Text>
                 <Tabs>
                   <TabList>
