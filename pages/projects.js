@@ -10,6 +10,7 @@ import { WorkGridItem } from '../components/grid-item';
 import Layout from '../components/layouts/article';
 import Section from '../components/section';
 
+import thumbXTremeMazes from '../public/images/projects/extreme-mazes-thumbnail.png';
 import thumbPortfolio from '../public/images/projects/portfolio.png';
 import thumbTutoro from '../public/images/projects/tutoro.png';
 import thumbPython from '../public/images/projects/python.png';
@@ -67,6 +68,22 @@ const Projects = () => (
           >
             Implemented Data Structures and Algorithms and build command line
             tools solving logical and mathematical problems.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="extreme-mazes"
+            title="Extreme Mazes"
+            thumbnail={thumbXTremeMazes}
+            /* width="250px"
+            height="425px" */
+            width="200px"
+            height="340px"
+            /* width="125px"
+            height="212.5px" */
+          >
+            Developed a web multiplayer game where players compete to get out of
+            a randomly generated maze.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

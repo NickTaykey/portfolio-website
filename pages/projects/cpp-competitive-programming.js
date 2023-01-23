@@ -91,11 +91,90 @@ const Work = () => {
                   teach basic concepts of programming using <strong>C++</strong>
                   . Moreover, it gives a complete problem solving foundation
                   necessary to tackle advanced university programming courses.
-                  This pages illustrates the most interesting programs given to
+                  This pages illustrates the most challenging programs given to
                   students as homework between <strong>Sept. 2022</strong> and{' '}
                   <strong>Jen. 2023</strong> (semester in which I took the
                   course).
                 </Text>
+              </AccordionPanel>
+            </AccordionItem>
+            <AccordionItem id="what-i-learned">
+              <h2>
+                <AccordionButton>
+                  <Box flex="1" textAlign="left" fontWeight="bold">
+                    What I learned
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <UnorderedList spacing="2">
+                  <ListItem>
+                    By following this course,{' '}
+                    <strong>I learned to code in C++</strong>. I had never coded
+                    in this language before (I had experience mainly in
+                    Javascript and Python). I struggled a lot at the beginning
+                    of the course, especially while learning concepts like
+                    dynamic allocation and pointers, but by doing many exercises
+                    I understood them and I was gradually able to complete every
+                    assignment given in the course.
+                  </ListItem>
+                  <ListItem>
+                    Even if I had already studied recursion and knew its use
+                    cases, this course let me{' '}
+                    <strong>understand recursion at its core</strong> by
+                    understanding how{' '}
+                    <strong>
+                      compilers parse recursive code to optimize it
+                    </strong>
+                    . This is put in practice by transforming recursive function
+                    written as <strong>tail recursive</strong> into equivalent
+                    iterative functions. This simplifies developers&apos; lives
+                    especially when dealing with trees, where recursion allows
+                    to perform basic operations in a very readable way.
+                  </ListItem>
+                  <ListItem>
+                    <Text>
+                      This course taught me basic{' '}
+                      <strong>data structures and algorithms</strong>. I had
+                      never studied them before, but I found them fascinating I
+                      learned:
+                    </Text>
+                    <UnorderedList my="2">
+                      <ListItem>Stacks</ListItem>
+                      <ListItem>Sorting algorithms</ListItem>
+                      <ListItem>Search algorithms</ListItem>
+                      <ListItem>Queues</ListItem>
+                      <ListItem>Priority Queues</ListItem>
+                      <ListItem>Binary Search Trees</ListItem>
+                      <ListItem>Linked lists</ListItem>
+                    </UnorderedList>
+                    <Text>
+                      This has been a great opportunity to{' '}
+                      <strong>start my interview preparation journey</strong>.
+                      Starting to solve basic DSA problems, in order to
+                      understand what I will need to focus on in the future in
+                      order to pass technical job interviews.
+                    </Text>
+                  </ListItem>
+                  <ListItem>
+                    <Text>
+                      After having completed this course{' '}
+                      <strong>my problem solving skills improved</strong>,
+                      especially for solving basic data structures problems. I
+                      learned that in order to solve these problems it&apos;s
+                      better to <strong>rephrase the problem first</strong>,
+                      thinking about: inputs, outputs and simple examples.
+                      Afterwards it&apos;s necessary to{' '}
+                      <strong>think about the logic</strong> which needs to be
+                      implemented in order to solve the problem. If it&apos;s
+                      very difficult to figure out an algorithm to process
+                      thought examples, then it may be useful to think about a{' '}
+                      <strong>simplified version of the problem</strong> and
+                      reflect on the logic which needs to be set up to solve it.
+                    </Text>
+                  </ListItem>
+                </UnorderedList>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem id="Multiple instances research in Binary Search Tree">
