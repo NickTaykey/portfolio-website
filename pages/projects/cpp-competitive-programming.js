@@ -65,7 +65,7 @@ const Work = () => {
       <Layout title="C++ competitive programming">
         <Container>
           <Title>
-            C++ competitive programming <Badge>sept. 2022 - jen. 2023</Badge>
+            C++ competitive programming <Badge>sept. 2022 - jan. 2023</Badge>
           </Title>
           <Heading size="sm" my="6">
             Programs developed using Data Structures and Algorithms.
@@ -93,7 +93,7 @@ const Work = () => {
                   necessary to tackle advanced university programming courses.
                   This pages illustrates the most challenging programs given to
                   students as homework between <strong>Sept. 2022</strong> and{' '}
-                  <strong>Jen. 2023</strong> (semester in which I took the
+                  <strong>Jan. 2023</strong> (semester in which I took the
                   course).
                 </Text>
               </AccordionPanel>

@@ -23,7 +23,7 @@ const Work = () => (
   <Layout title="Tutoro">
     <Container>
       <Title>
-        Extreme mazes <Badge>dec 2022 - jen 2023</Badge>
+        Extreme mazes <Badge>dec 2022 - jan 2023</Badge>
       </Title>
       <Heading size="md">
         A game where players compete to get out of a maze
