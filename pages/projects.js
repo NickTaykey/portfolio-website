@@ -13,6 +13,7 @@ import Section from '../components/section';
 import thumbPortfolio from '../public/images/projects/portfolio.png';
 import thumbTutoro from '../public/images/projects/tutoro.png';
 import thumbPython from '../public/images/projects/python.png';
+import thumbCpp from '../public/images/projects/cpp-thumbnail.png';
 
 const Projects = () => (
   <Layout title="Projects">
@@ -54,6 +55,18 @@ const Projects = () => (
           >
             Wrote multiple scripts for automating boring tasks, ie: passwords
             management and web data fetching (using web scraping).
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="cpp-competitive-programming"
+            title="C++ competitive programming"
+            thumbnail={thumbCpp}
+            width="250px"
+            height="150px"
+          >
+            Implemented Data Structures and Algorithms and build command line
+            tools solving logical and mathematical problems.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
