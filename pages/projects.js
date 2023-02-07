@@ -15,6 +15,7 @@ import thumbPortfolio from '../public/images/projects/portfolio.png';
 import thumbTutoro from '../public/images/projects/tutoro.png';
 import thumbPython from '../public/images/projects/python.png';
 import thumbCpp from '../public/images/projects/cpp-thumbnail.png';
+import thumbMatrixLab from '../public/images/projects/matrix-lab.png';
 
 const Projects = () => (
   <Layout title="Projects">
@@ -75,15 +76,24 @@ const Projects = () => (
             id="extreme-mazes"
             title="Extreme Mazes"
             thumbnail={thumbXTremeMazes}
-            /* width="250px"
-            height="425px" */
             width="200px"
             height="340px"
-            /* width="125px"
-            height="212.5px" */
           >
             Developed a web multiplayer game where players compete to get out of
             a randomly generated maze.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="matrix-lab"
+            title="Matrix Lab"
+            thumbnail={thumbMatrixLab}
+            width="1000px"
+            height="600px"
+          >
+            Developed a web app which visualizes linear-algebra matrix
+            operations: (ie: determinant, inverse matrix, matrix product and
+            rref).
           </WorkGridItem>
         </Section>
       </SimpleGrid>

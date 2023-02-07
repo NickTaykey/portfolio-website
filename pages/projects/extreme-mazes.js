@@ -20,7 +20,7 @@ import Layout from '../../components/layouts/article';
 import Section from '../../components/section';
 
 const Work = () => (
-  <Layout title="Tutoro">
+  <Layout title="Extreme Mazes">
     <Container>
       <Title>
         Extreme mazes <Badge>dec 2022 - jan 2023</Badge>
@@ -227,45 +227,50 @@ const Work = () => (
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            <Text>
-              When I started I wanted to build the whole game just as a
-              client-side app. I planned to use{' '}
-              <strong>Firebase firestore</strong> to handle realtime updates.
-              Unfortunately this has not been possible because of Firebase
-              limitations related to the{' '}
-              <strong>maximum document updates</strong> per second{' '}
-              <Link
-                href="https://stackoverflow.com/questions/64394360/firebaseerror-code-resource-exhausted-write-stream-exhausted-maximum-allowed"
-                target="_blank"
-              >
-                Learn more here <ExternalLinkIcon mx="2px" />
-              </Link>{' '}
-              . These limitations complictes the use of Firebase to handle high
-              frequency updates necessary to ensure realtime player
-              interactions.
-            </Text>
-            <Text my="3">
-              Once, I realized I could not rely on Firebase document realtime
-              updates feature, I tried to use{' '}
-              <Link href="https://ably.com/" target="_blank">
-                Ably <ExternalLinkIcon mx="2px" />
-              </Link>{' '}
-              to implement realtime communication between clients (emulating
-              what websockets do). I also needed database to make sure each
-              player could access the maze to paint. Unfortunately the
-              client-side integration: Ably-Firebase turned out to be{' '}
-              <strong>too clunky and difficult to handle</strong>.
-            </Text>
-            <Text>
-              After two weeks of experiments and debugging I decided that the
-              only way to build the game in the most understandable and
-              mantainable way was to handle realtime communication using
-              websockets. Unfortunately by doing so I needed a{' '}
-              <strong>custom backend</strong>. I built it using ExpressJS and
-              Firebase as Database. By doing so generating the maze, displaying
-              on the client side and handle realtime updates turned out to be
-              very easy.
-            </Text>
+            <UnorderedList spacing="3">
+              <ListItem>
+                When I started I wanted to build the whole game just as a
+                client-side app. I planned to use{' '}
+                <strong>Firebase firestore</strong> to handle realtime updates.
+                Unfortunately this has not been possible because of Firebase
+                limitations related to the{' '}
+                <strong>maximum document updates</strong> per second{' '}
+                <Link
+                  href="https://stackoverflow.com/questions/64394360/firebaseerror-code-resource-exhausted-write-stream-exhausted-maximum-allowed"
+                  target="_blank"
+                >
+                  Learn more here <ExternalLinkIcon mx="2px" />
+                </Link>{' '}
+                . These limitations complictes the use of Firebase to handle
+                high frequency updates necessary to ensure realtime player
+                interactions.
+              </ListItem>
+              <ListItem>
+                Once, I realized I could not rely on Firebase document realtime
+                updates feature, I tried to use{' '}
+                <Link href="https://ably.com/" target="_blank">
+                  Ably <ExternalLinkIcon mx="2px" />
+                </Link>{' '}
+                to implement realtime communication between clients (emulating
+                what websockets do). I also needed database to make sure each
+                player could access the maze to paint. Unfortunately the
+                client-side integration: Ably-Firebase turned out to be{' '}
+                <strong>too clunky and difficult to handle</strong>.
+              </ListItem>
+              <ListItem>
+                After two weeks of experiments and debugging I decided that the
+                only way to build the game in the most understandable and
+                mantainable way was to handle realtime communication using
+                websockets. Unfortunately by doing so I needed a{' '}
+                <strong>custom backend</strong>. I built it using ExpressJS and
+                Firebase as Database. By doing so generating the maze,
+                displaying on the client side and handle realtime updates turned
+                out to be very easy.
+              </ListItem>
+            </UnorderedList>
+
+            <Text my="3"></Text>
+            <Text></Text>
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
@@ -278,14 +283,14 @@ const Work = () => (
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            <UnorderedList>
+            <UnorderedList spacing="3">
               <ListItem>
                 This project let me{' '}
                 <strong>learn more about HTML Canvas</strong>, in particulare
                 how to visualize complex 2d shapes modeled by algorithms like
                 the ones generating mazes.
               </ListItem>
-              <ListItem my="3">
+              <ListItem>
                 I also learned <strong>how to build</strong> a project{' '}
                 <strong>on the top of an existing algorithm</strong>. This
                 requires learning how the algorithm works under the hood and
@@ -294,7 +299,7 @@ const Work = () => (
                 leverage that algorithm in order to do something very concrete,
                 in this cas <strong>powering a game</strong>.
               </ListItem>
-              <ListItem mt="3">
+              <ListItem>
                 Extreme Mazes consolidated in myself{' '}
                 <strong>
                   the mindset that every software developer should embrace
