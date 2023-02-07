@@ -206,7 +206,7 @@ const Work = () => (
               width="800"
               height="450"
               src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpjbvIsDSwXLM2vP07euWSi%2Fmatrix-calc%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D266%252C422%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </AccordionPanel>
         </AccordionItem>
