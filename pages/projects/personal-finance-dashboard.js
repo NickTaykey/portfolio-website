@@ -22,7 +22,7 @@ import pfsk2 from '../../public/images/pf-dashboard-sketches/sk2.png';
 import Image from 'next/image';
 
 const Work = () => (
- <Layout title="Tutoro">
+ <Layout title="Personal Finance Dashboard">
   <Container>
    <Title>
     Personal Finance Dashboard <Badge>Feb 2023</Badge>
