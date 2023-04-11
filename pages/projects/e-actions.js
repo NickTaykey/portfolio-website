@@ -22,16 +22,13 @@ const Work = () => (
  <Layout title="E-actions">
   <Container>
    <Title>
-    E-actions <Badge>Mar 2021</Badge>
+    E-actions <Badge>Mar 2023</Badge>
    </Title>
    <Heading size="md">An online auctions website</Heading>
    <List ml={4} my="6">
     <ListItem>
      <Meta>Github</Meta>
-     <Link
-      href="https://github.com/NickTaykey/personal-finance-dashboard"
-      target="_blank"
-     >
+     <Link href="https://github.com/NickTaykey/e-actions" target="_blank">
       Code
      </Link>
     </ListItem>
