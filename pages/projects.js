@@ -17,6 +17,7 @@ import thumbPython from '../public/images/projects/python.png';
 import thumbCpp from '../public/images/projects/cpp-thumbnail.png';
 import thumbMatrixLab from '../public/images/projects/matrix-lab.png';
 import thumpPersonalFinanceDashBoard from '../public/images/projects/pf-dashboard.png';
+import thumpEActions from '../public/images/projects/e-actions-thumbnail.png';
 
 const Projects = () => (
  <Layout title="Projects">
@@ -27,6 +28,9 @@ const Projects = () => (
    <SimpleGrid columns={[1, 1, 2]} gap={6}>
     <Section>
      <WorkGridItem id="tutoro" title="Tutoro" thumbnail={thumbTutoro}>
+      <Badge colorScheme="green" width="40%" mx="auto" my="2">
+       Best so far
+      </Badge>
       <Text>
        Built a Tutor booking fullstack website and PWA using NextJS, MongoDB,
        Typescript and Chakra UI.
@@ -88,9 +92,6 @@ const Projects = () => (
       height="600px"
      >
       <Flex direction="column">
-       <Badge colorScheme="green" width="40%" mx="auto" my="2">
-        Best so far
-       </Badge>
        <Text>
         Developed a web app which visualizes linear-algebra matrix operations:
         (ie: determinant, inverse matrix, matrix product and rref).
@@ -109,6 +110,18 @@ const Projects = () => (
       Developed a personal finance dashboard which allows users to group their
       daily expenses with tags in order to visualize frequencies and total
       amounts.
+     </WorkGridItem>
+    </Section>
+    <Section>
+     <WorkGridItem
+      id="e-actions"
+      title="e-actions"
+      thumbnail={thumpEActions}
+      width="1000px"
+      height="600px"
+     >
+      Developed website where users can bid on auction products and ask
+      questions about them.
      </WorkGridItem>
     </Section>
    </SimpleGrid>

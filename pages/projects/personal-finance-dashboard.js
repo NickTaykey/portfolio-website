@@ -50,7 +50,7 @@ const Work = () => (
     <ListItem>
      <Meta>Stack</Meta>
      <span>
-      <Link href="https://nextjs.org/" target="_blank">
+      <Link href="https://reactjs.org/" target="_blank">
        ReactJS <ExternalLinkIcon mx="2px" />
       </Link>
       ,
