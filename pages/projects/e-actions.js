@@ -22,7 +22,7 @@ import { CopyBlock, a11yDark, a11yLight } from 'react-code-blocks';
 
 const code = `service cloud.firestore {
     match /databases/{database}/documents {
-          function isUserAuthenticated() {
+      function isUserAuthenticated() {
         return request.auth != null;
       }
       
@@ -35,8 +35,8 @@ const code = `service cloud.firestore {
       }
     
       match /questions/{document=**} {
-          function isValidQuestion(data) {
-            return data.text is string && data.text.size() > 0;
+        function isValidQuestion(data) {
+          return data.text is string && data.text.size() > 0;
         }
         
         function isValidTextUpdate(data) {
@@ -47,13 +47,13 @@ const code = `service cloud.firestore {
           return isUserItemCreator(data.itemCreatorId) && isValidQuestion(data) && data.answer is string;
         }
         
-          allow delete: if isUserAuthenticated() && doesUserOwnResource();
-          allow create: if isUserAuthenticated() && isValidQuestion(request.resource.data);
+        allow delete: if isUserAuthenticated() && doesUserOwnResource();
+        allow create: if isUserAuthenticated() && isValidQuestion(request.resource.data);
         allow update: if isUserAuthenticated() && (isValidTextUpdate(request.resource.data) || isValidAnswerUpdate(request.resource.data));
         allow read: if true;
       }
       
-        match /items/{document=**} {       
+      match /items/{document=**} {       
         function isValidExternalUpdate(data) {
              return data.views is number || data.questions is list;
         }
@@ -61,12 +61,12 @@ const code = `service cloud.firestore {
         function areItemFieldsValid(data) {
             return (
               data.name is string && data.name.size() > 0 &&
-            data.nameLowerCase is string && data.nameLowerCase.size() > 0 &&
-            data.description is string && data.description.size() > 0  &&
-            data.minPrice is number && data.minPrice > 0 &&
-            data.categories is list && data.categories.size() > 0 &&
-            data.views == request.resource.data.views
-          );
+              data.nameLowerCase is string && data.nameLowerCase.size() > 0 &&
+              data.description is string && data.description.size() > 0  &&
+              data.minPrice is number && data.minPrice > 0 &&
+              data.categories is list && data.categories.size() > 0 &&
+              data.views == request.resource.data.views
+            );
         }
         
         function isViewsInizialiedToZero(data) {
@@ -183,27 +183,31 @@ const Work = () => {
        <Text>
         I used Firestore as serverless backend for this project, I already knew
         Firestore, but this project allowed me to learn it more into depth,
-        mastering the following aspects:.
+        mastering the following features:
        </Text>
        <UnorderedList my={4} spacing={4}>
         <ListItem>
-         I used <strong>complex queries</strong> to build fuzzy search and
-         category based search for items.
+         <strong>Complex queries</strong> to build fuzzy search and category
+         based search for items.
         </ListItem>
         <ListItem>
-         I implemented <strong>real time offers</strong> using the onSnapshot
-         API.
+         The <strong>onSnapshot API</strong> to implement real time offers.
         </ListItem>
         <ListItem>
-         I implemented <strong>user authentication</strong> using the built-in
-         strategies for Github and Google OAuth.
+         <strong>User authentication</strong> using the built-in strategies for
+         Github and Google OAuth.
         </ListItem>
         <ListItem>
-         Moreover, I also learned how to secure access to protected resources on
-         Firebase using <strong>security rules</strong>. Security rules are the
-         way Firebase allow developers to build a custom backends by writing
-         code which is executed before a query is processed in order to validate
-         request data and to check if the user is allowed to execute the query.
+         How to secure access to protected resources on Firestore using{' '}
+         <strong>security rules</strong>. Security rules are the way Firestore
+         enables developers to build a custom backends by writing code which is
+         executed before a query is processed. It is usefull to validate request
+         data and to check if the user is allowed to execute the query.
+         <Text mt="3">
+          This is the code which I wrote to validate every requeste which
+          arrives to Firestore to check if the user has permissions to execute
+          it and if the data passed is valid.
+         </Text>
          <Box mt="3">
           <CopyBlock
            language="js"
