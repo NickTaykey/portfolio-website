@@ -94,7 +94,7 @@ const Work = () => (
        <strong>implementation</strong> of the algorithms from the one related to
        the <strong>visualization</strong> of the result. In this way I was able
        to develop the app by keeping it <strong>scalable and updatable</strong>{' '}
-       without any major constraint. Morevore, typescript made the development
+       without any major constraint. Moreover, typescript made the development
        process safer and more enjoyable.
       </Text>
      </AccordionPanel>
