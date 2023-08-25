@@ -74,7 +74,7 @@ const Navbar = (props) => {
      <LinkItem href="/projects" path={path}>
       Personal projects
      </LinkItem>
-     <LinkItem href="https://res.cloudinary.com/dmxuerbxv/image/upload/v1680435295/portfolio/Niccolo%CC%80-Toccane-CV_myxv82.pdf">
+     <LinkItem href="https://res.cloudinary.com/dmxuerbxv/image/upload/v1692965887/portfolio/Niccolo%CC%80-Toccane-CV_gwsm6a.pdf">
       CV
      </LinkItem>
      <LinkItem href="/contacts" path={path}>
