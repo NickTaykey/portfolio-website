@@ -120,10 +120,8 @@ const Home = () => (
             building side projects in the free time
           </BioSection>
           <BioSection>
-            <BioYear>Last Summer</BioYear> Studying Computer Science at{' '}
-            <Link href="https://www.unitn.it/en" target="_blank">
-              Interned as a Software Engineer at <Link href="https://www.wonderflow.ai/" target="_blank">Wonderflow.ai</Link>
-            </Link>{' '}
+            <BioYear>Last Summer</BioYear>
+            Interned as a Software Engineer at <Link href="https://www.wonderflow.ai/" target="_blank">Wonderflow.ai</Link>
             Developing backend services to perform large scale Web Scraping
           </BioSection>
           
