@@ -113,12 +113,20 @@ const Home = () => (
             in Belluno with <strong>100/100</strong>
           </BioSection>
           <BioSection>
-            <BioYear>Today</BioYear> Studying Computer Science at{' '}
+            <BioYear>Year 3</BioYear>Started studying Computer Science at{' '}
             <Link href="https://www.unitn.it/en" target="_blank">
               University of Trento
             </Link>{' '}
             building side projects in the free time
           </BioSection>
+          <BioSection>
+            <BioYear>Last Summer</BioYear> Studying Computer Science at{' '}
+            <Link href="https://www.unitn.it/en" target="_blank">
+              Interned as a Software Engineer at <Link href="https://www.wonderflow.ai/" target="_blank">Wonderflow.ai</Link>
+            </Link>{' '}
+            Developing backend services to perform large scale Web Scraping
+          </BioSection>
+          
         </VStack>
       </Section>
 
